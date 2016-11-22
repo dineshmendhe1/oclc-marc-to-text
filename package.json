@@ -1,11 +1,11 @@
 {
-  "name": "marcjs",
+  "name": "marcjs_test",
   "description": "MARC record node.js library",
   "version": "0.1.13",
-  "homepage": "https://github.com/fredericd/marcjs",
+  "homepage": "https://github.com/dmendhe/marcjs",
   "author": {
-    "name": "Frédéric Demians",
-    "email": "f.demians@tamil.fr"
+    "name": "Dinesh Mendhe",
+    "email": "dmendhe@umd.edu"
   },
   "keywords": [
     "marc",
@@ -38,14 +38,21 @@
   "dependencies": {
     "async": "~0.2.6",
     "libxmljs": "^0.18.0",
+    "marcjs": "^0.1.13",
+    "mocha": "^3.1.2",
     "nopt": "~2.1.0"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "grunt": "~0.4.1",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-jshint": "~0.1.1",
     "grunt-contrib-watch": "~0.2.0",
     "grunt-mocha-test": "~0.8.0",
+    "mocha": "^3.1.2",
     "should": "~2.0.0"
-  }
+  },
+  "scripts": {
+  "test": "node ./node_modules/mocha/bin/mocha"
+}
 }

@@ -3,6 +3,7 @@
 var should = require('should'),
     fs     = require('fs'),
     m      = require('../lib/marcjs.js');
+var expect = require('chai').expect;
 
 describe('Record', function() {
   var record = new m.Record();
