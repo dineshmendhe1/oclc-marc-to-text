@@ -234,16 +234,3 @@ The module exports several functions:
   * TextWriter
   * MijWriter
 
-### getReader(format) 
-
-Returns a reader for specific serialisation format. Available format: iso2709, marcxml.
-
-### getWriter(format)
-
-Returns a writer for a specific serialisation format: iso2709, marcxml, ison, text, mij.
-
-## Release History
-
-## License
-Copyright (c) 2013-2016 Frédéric Demians
-Licensed under the MIT license.
